@@ -3,6 +3,7 @@ import PageTemplate from 'components/common/PageTemplate';
 // import ListWrapper from 'components/list/ListWrapper';
 import ListWrapper from 'components/list/ListWrapper';
 import PostList from 'components/list/PostList';
+import Pagination from 'components/list/Pagination';
 
 
 const ListPage = () => {
@@ -10,6 +11,7 @@ const ListPage = () => {
         <PageTemplate>
             <ListWrapper>
                 <PostList/>
+                <Pagination/>
             </ListWrapper>
         </PageTemplate>
     );
