@@ -43,6 +43,7 @@ import EditorPane from 'components/editor/EditorPane';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as editorActions from 'store/modules/editor';
+import { toJS } from 'immutable';
 
 class EditorPaneContainer extends Component {
 
